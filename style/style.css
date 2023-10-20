@@ -28,10 +28,41 @@ main{
     display: flex;
     justify-content: center;
 }
+
+.jmeno label{
+    min-width: 50px;
+}
+
+.heslo label{
+    min-width: 50px;
+}
 .buttony{
     display: flex;
     justify-content: space-between;
 }
 .buttony a{
-    background-color: black;
+    padding: 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgb(140, 0, 255);
+}
+
+#Heslo{
+    background-color: rgb(255, 0, 234);
+}
+#Login{
+    background-color: blanchedalmond;
+}
+#Registrace{
+    background-color: rgb(42, 165, 52);
+}
+.pozadi2{
+    background-color: rgb(132, 209, 233);
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: black;
 }
